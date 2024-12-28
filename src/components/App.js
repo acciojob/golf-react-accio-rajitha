@@ -38,8 +38,8 @@ class App extends Component {
         ></div>
       );
     } else {
-      // Show the start button
-      return <button onClick={this.buttonClickHandler}>Start</button>;
+      // Show the start button with the class 'start'
+      return <button className="start" onClick={this.buttonClickHandler}>Start</button>;
     }
   }
 

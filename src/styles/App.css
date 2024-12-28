@@ -1,3 +1,31 @@
+.playground {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    position: relative; /* Ensure the ball's absolute position works within the playground */
+  }
+  
+  body, html, .root {
+    height: 100%;
+  }
+  
+  .ball {
+    background-color: black;
+    box-shadow: 0 10px 10px -6px;
+    position: absolute; /* Ball needs to be positioned absolutely */
+    top: 50%; /* Center ball vertically */
+    transform: translateY(-50%); /* Ensure vertical centering */
+    height: 50px;
+    width: 50px;
+    border-radius: 25px; /* Circular ball */
+  }
+  
+  .start {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+/*  
 .playground{
     width:50%;
     height:50%;
@@ -15,3 +43,4 @@ body html .root {
     width: 50px;
     border-radius: 25px;
 }
+*/
